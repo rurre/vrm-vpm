@@ -15,21 +15,6 @@
     "githubRepos":[
         "vrm-c/UniVRM"
     ],
-    "packages":[
-        {
-            "name":"com.vrmc.vrmshaders",
-            "version": "0.107.0",
-            "url": "https://github.com/vrm-c/UniVRM.git?path=/Assets/VRMShaders#v0.107.0"
-        },
-        {
-            "name":"com.vrmc.gltf",
-            "version": "0.107.0",
-            "url": "https://github.com/vrm-c/UniVRM.git?path=/Assets/UniGLTF#v0.107.0"
-        },
-        {
-            "name":"com.vrmc.univrm",
-            "version": "0.107.0",
-            "url": "https://github.com/vrm-c/UniVRM.git?path=/Assets/VRM#v0.107.0"
-        }
+    "packages":[        
     ]
 }
