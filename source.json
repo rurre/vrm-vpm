@@ -1,28 +1,35 @@
 {
-    "name":"Example Listing",
-    "id":"com.vrchat.example-listing",
-    "url":"https://vrchat-community.github.io/template-package-listing/index.json",
-    "author":{
-        "email":"developer@vrchat.com",
-        "name":"VRChat",
-        "url":"https://hello.vrchat.com"
+    "name":"VRM VPM Listing",
+    "id":"io.github.rurre.vrm-vpm",
+    "url":"https://rurre.github.io/vrm-vpm/index.json",
+    "author":{        
+        "name":"Pumkin",
+        "url":"https://github.com/rurre/"
     },
-    "description":"Example listing of VRChat packages",
+    "description":"A VPM listing for VRM packages",
     "infoLink":{
-        "url":"http://github.com/vrchat-community/template-package-listing",
+        "url":"https://rurre.github.io/vrm-vpm/",
         "text":"View on GitHub"
     },
     "bannerUrl":"banner.png",
     "githubRepos":[
-        "vrchat-community/clientsim"
+        "vrm-c/UniVRM"
     ],
     "packages":[
         {
-            "name":"com.vrchat.udonsharp",
-            "releases":[
-                "https://github.com/vrchat-community/UdonSharp/releases/download/1.1.7/com.vrchat.UdonSharp.zip",
-                "https://github.com/vrchat-community/UdonSharp/releases/download/1.1.6/com.vrchat.UdonSharp-1.1.6.zip"
-            ]
+            "name":"com.vrmc.vrmshaders",
+            "version": "0.107.0",
+            "url": "https://github.com/vrm-c/UniVRM.git?path=/Assets/VRMShaders#v0.107.0"
+        },
+        {
+            "name":"com.vrmc.gltf",
+            "version": "0.107.0",
+            "url": "https://github.com/vrm-c/UniVRM.git?path=/Assets/UniGLTF#v0.107.0"
+        },
+        {
+            "name":"com.vrmc.univrm",
+            "version": "0.107.0",
+            "url": "https://github.com/vrm-c/UniVRM.git?path=/Assets/VRM#v0.107.0"
         }
     ]
 }
