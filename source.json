@@ -12,9 +12,11 @@
         "text":"View on GitHub"
     },
     "bannerUrl":"banner.png",
-    "githubRepos":[
-        "vrm-c/UniVRM"
-    ],
-    "packages":[        
+    "packages":[
+        {
+            "name": "com.vrmc.gltf",
+            "version": "0.107.2",
+            "url": "https://github.com/rurre/vrm-vpm/releases/download/vrm-0.107.2/com.vrmc.gltf-0.107.2.zip",
+        },
     ]
 }
